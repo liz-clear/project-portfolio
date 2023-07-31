@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Metadatos -->
+    <meta charset="utf-8">
+    <meta name="author" content="Jane Doe">
+    <meta name="description" content="Portafolio de desarrollo web de Jane Doe">
+    <meta name="keywords" content="HTML, CSS, JavaScript, React">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Titulo -->
+    <title> Lizeth Monroy | Desarrollo Web Front-End</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="imagenes/icono.png">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link href="style.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <img src="imagenes/icono.png" width="50" alt="Logo de la página web">
+          </a>
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#sobre-bts">Sobre BTS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#miembros">Miembros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#ARMY">Fandom</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Seccion Hero -->
+    <section class="hero align-items-stretch">
+      <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+        <img class="hero-imagen-desarrollador rounded-circle" src="imagenes/ARMY.png" alt="Foto de Jane Doe">
+        <h1>Hola, soy Lizeth Monroy </h1>
+        <!--<h2>Desarrollo sitios web y escribo artículos sobre programación.</h2>-->
+
+        <!--Animación con JavaScript-->
+        <h2 class="text-primary mb-4" id="typewriter"></h2>
+      </div>
+      <div class="hero-inferior">
+        <img class="hero-inferior-imagen img-fluid" src="imagenes/descarga.jpg" alt="Monitor, laptop y logos de HTML, CSS, JavaScript y React.">
+      </div>
+    </section>
+
+    <!-- Sobre BTS -->
+    <section id="sobre-bts" class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo">Conoce a BTS</h2>
+        <p class="seccion-texto">BTS, también conocido como Bangtan Boys, es un grupo surcoreano formado en 2010. Está compuesto por siete integrantes: Jin, Suga, J-Hope, RM, Jimin, V y Jungkook, quienes escriben y producen la mayor parte de su material discográfico. BTS debutó en 2013 bajo la compañía Big Hit Entertainment con el álbum sencillo 2 Cool 4 Skool. Un año después publicó sus primeros álbumes de estudio en coreano y en japonés, Dark & Wild y Wake Up respectivamente. Su segundo álbum de estudio, Wings (2016), fue el primero de sus discos del que se vendieron más de un millón de copias en Corea del Sur. Para 2017 entró al mercado musical global como el principal promotor de la ola coreana, especialmente en Estados Unidos. Fue el primer artista coreano en recibir una certificación de la Recording Industry Association of America (RIAA), con su sencillo «MIC Drop», y en encabezar la lista Billboard 200, con su disco Love Yourself: Tear (2018). </p>
+      </div>
+    </section>
+
+    <!-- Experiencia -->
+    <section class="experiencia seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+          <!-- BIG HIT-->
+          <div class="columna col-12 col-md-4">
+            <i class="bi-balloon-heart"></i>
+            <p class="experiencia-titulo">BigHit</p>
+            <p>Big Hit Music, anteriormente Big Hit Entertainment, es una empresa de entretenimiento surcoreana fundada en 2005 por Bang Si-hyuk. Fue renombrada como Big Hit Music por su empresa matriz HYBE, antes Big Hit Entertainment Co., Ltd..​ A fecha de 2022, tiene contrato con el solista Lee Hyun, los grupos BTS y TXT. </p>
+            <div class="badges-contenedor">
+              <!--SPAN AGRUPAR ELEMENTOS EN UNA LINEA NO BLOQUE COMO DIV-->
+              <span class="badge text-bg-secondary">BTS</span>
+              <span class="badge text-bg-secondary">TXT</span>
+              <span class="badge text-bg-secondary">SEVENTEEN</span>
+              <span class="badge text-bg-secondary">Lee Hyun</span>
+            </div>
+          </div>
+          <!-- ARMY -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-brightness-alt-high-fill"></i>
+            <p class="experiencia-titulo">ARMY</p>
+            <p>Se le llama ARMYal grupo de fans de la banda de música pop surcoreana BTS. Este es el acrónimo en inglés de "Adorable Representative MC for Youth", que traducido al español significaría "Adorables Representantes MC para la Juventud", siendo "M. C." las siglas de maestro de ceremonias.</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-secondary">Escribir</span>
+              <span class="badge text-bg-secondary">Únirse</span>
+              <span class="badge text-bg-secondary">Blogs</span>
+            </div>
+          </div>
+          <!-- ALBUMS -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-clipboard-heart"></i>
+            <p class="experiencia-titulo">Discografía</p>
+            <p>La discografía de BTS incluye 9 álbumes de estudio, 6 álbumes recopilatorios, 1 banda sonora, 2 sencillos y 2 reediciones. </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-secondary">2 COOL 4 SKOOL</span>
+              <span class="badge text-bg-secondary">O!RUL8,2?</span>
+              <span class="badge text-bg-secondary">SKOOL LUV AFFAIR</span>
+              <span class="badge text-bg-secondary">DARK & WILD</span>
+              <span class="badge text-bg-secondary">THE MOST BEAUTIFUL MOMENT IN LIFE PT.1</span>
+              <span class="badge text-bg-secondary">THE MOST BEAUTIFUL MOMENT IN LIFE PT.2</span>
+              <span class="badge text-bg-secondary">THE MOST BEAUTIFUL MOMENT IN LIFE: YOUNG FOREVER</span>
+              <span class="badge text-bg-secondary">WINGS</span>
+              <span class="badge text-bg-secondary">YOU NEVER WALK ALONE</span>
+              <span class="badge text-bg-secondary">LOVE YOURSELF-HER</span>
+              <span class="badge text-bg-secondary">LOVE YOURSELF-TEAR</span>
+              <span class="badge text-bg-secondary">LOVE YOURSELF-ANSWER</span>
+              <span class="badge text-bg-secondary">MAP OF THE SOUL: PERSONA</span>
+              <span class="badge text-bg-secondary">MAP OF THE SOUL: 7</span>
+              <span class="badge text-bg-secondary">BE</span>
+              <span class="badge text-bg-secondary">PROOF</span>            
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo texto-negro">Galería</h2>
+      <h3 class="seccion-descripcion">Galería</h3>
+      <!-- Galeria de Proyectos -->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!-- Proyecto 1 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/1.jpg" alt="Grammys 2019">
+              <div class="overlay">
+                <p>Grammys 2019</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/2.jpg" alt="FESTA 2021">
+              <div class="overlay">
+                <p>FESTA 2021</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 3 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/3.jpg" alt="AMA 2019">
+              <div class="overlay">
+                <p>AMA 2019</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 4 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/4.jpg" alt="Grammys 2019">
+              <div class="overlay">
+                <p>FESTA 2022</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 5 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/5.jpg" alt="Proyecto 1">
+              <div class="overlay">
+                <p>SINGLES 2022</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 6 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/6.jpg" alt="Proyecto 1">
+              <div class="overlay">
+                <p>FESTA 2020</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info">
+          Ver más imagenes
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+
+    <!-- Testimonios -->
+    <section id="testimonios" class="testimonios seccion-clara">
+      <h2 class="seccion-titulo">Miembros</h2>
+      <h3 class="seccion-descripcion">Estos son los miembros que conforman la banda</h3>
+      
+      <!-- Carrusel -->
+      <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/member-jk.jpg" alt="Foto de Jungkook">
+              <p class="testimonio-texto">Jungkook nació el 1 de septiembre de 1997, en Busan, Corea del Sur.2​ Su familia consiste en su padre, su madre y un hermano mayor.3​2​ Asistió a la escuela Baekyang en Busan, antes de convertirse en aprendiz y transferirse a la Singu Middle School en Seúl.</p>
+              <div class="testimonio-info">
+                <p class="cliente">JK</p>
+                <p class="cargo">Jeon Jung-kook - Main vocalist</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/member-rm.jpg" alt="Foto de Nora">
+              <p class="testimonio-texto">Kim Nam-joon nació el 12 de septiembre de 1994 en Dongjak-gu, Corea del Sur. Antes de su debut, era un rapero underground el cual usaba el nombre artístico "Runch Randa"; lanzó varias canciones y colaboró con el conocido rapero Zico.1​ Era parte del grupo surcoreano de hip hop underground Daenamhyup, el cuál consiste de Marvel J, l11ven, Supreme Boi, Iron, Kyum2, Kidoh, Samsoon, Illipse, DJ Snatch y él.</p>
+              <div class="testimonio-info">
+                <p class="cliente">RM</p>
+                <p class="cargo">Kim Nam-joon - Lead rapper</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/member-jhope.jpg" alt="Foto de Nora">
+              <p class="testimonio-texto">J-Hope nació el 18 de febrero de 1994 en Gwangju, Corea del Sur. Antes de su debut con BTS, era un bailarín underground, y se presentaba bajo el nombre de Smile Hoya, nombre con el que ganó varios premios en competencias y festivales de baile, además, perteneció a dos grupos de baile callejero, GO Arts y NEURON.</p>
+              <div class="testimonio-info">
+                <p class="cliente">J-Hope</p>
+                <p class="cargo">Jung Ho-Seok - Lead rapper</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/member-jimin.jpg" alt="Foto de Nora">
+              <p class="testimonio-texto">Jimin nació el 13 de octubre de 1995 en Geumjeong-gu, Busan, Corea del Sur.2​ Además de su padre y madre, también tiene un hermano menor.3​ Cuando era pequeño asistió a la Escuela Primaria Hodong y a la Yonsan Middle School.4​ Asimismo tomó clases en la Academia Just Dance, donde aprendió distintos tipos de baile urbano como popping y locking.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Jimin</p>
+                <p class="cargo">Park Ji-Min - Main dancer</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/member-jin.jpg" alt="Foto de Nora">
+              <p class="testimonio-texto">Jin nació el 4 de diciembre de 1992 en Anyang-Gwangcheon, Corea del Sur.3​ Su familia consiste en su madre, su padre y su hermano mayor.4​ Mientras estaba en la escuela secundaria, Jin fue contactado en la calle por un scouter de la agencia de K-pop SM Entertainment, pero él rechazó la oferta en el momento.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Jin</p>
+                <p class="cargo">Kim Seok-Jin - Lead vocal/ Main visual</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/member-suga.jpg" alt="Foto de Nora">
+              <p class="testimonio-texto">Min Yoon-Gi nació el 9 de marzo de 1993 en la ciudad de Daegu, al sureste de Corea del Sur.6​ Empezó a interesarse por la música en quinto de primaria después de ver una actuación de Stony Skunk en televisión, y fue así como empezó a escuchar a grupos hip-hop como Epik High.7​ En segundo curso de la escuela media actuó por primera vez en un escenario interpretando el tema «Go Back» del grupo Dynamic Duo.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Suga/Agust D</p>
+                <p class="cargo">Min Yoon-gi - Main rapper</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/member-v.jpg" alt="Foto de Leonardo">
+              <p class="testimonio-texto">Kim Taehyung nació el 30 de diciembre de 1995 en Daegu, Corea del Sur,2​ y creció en Geochang-gun.3​ Es el mayor de 3 hermanos; tiene una hermana y un hermano menor.4​ Comenzó a aspirar a ser un cantante profesional en la escuela primaria,5​ por lo que para lograrlo empezó a tomar clases de saxofón,4​5​con el apoyo de su padre.6​ Se convirtió en aprendiz de Big Hit después de pasar una audición en Daegu en 2011.</p>
+              <div class="testimonio-info">
+                <p class="cliente">V</p>
+                <p class="cargo">Kim Tae-Hyung - Lead singer/Lead visual</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contacto seccion-oscura">
+      <div class="container">
+        <div class="container text-center rectangulo d-flex justify-content-evenly">
+          <div class="row">
+            <div class="col-12 col-md-4 seccion-titulo">
+              ¡Contactános!
+            </div>
+            <div class="col-12 col-md-4 descripcion">
+              Contáctame para concer más relacionado a proyectos, votaciones para BTS
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="mailto:janedoe@micorreo.com">
+                <button type="button">  
+                  Contacto
+                  <i class="bi bi-envelope-check-fill"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Pie de pagina (footer) -->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center"> 
+      <img class="footer-logo" src="imagenes/pizza.png" alt="Logo del due">
+      <p class="footer-texto text-center">Involúcrate y llevemos a BTS a los Grammy.<br>Creemos un fandom más sano.</p>
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-twitter"></i>
+        </a>
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a href="mailto:janedoe@micorreo.com" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-envelope"></i>
+        </a>
+      </div>
+      <div class="derechos-de-autor">Creado por Lizeth Monroy (2023) &#169;</div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+        <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+        <script src="main.js"></script>
+
+  </body>
+</html>
